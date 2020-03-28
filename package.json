@@ -1,0 +1,33 @@
+{
+  "name": "web-security-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server/index",
+  "scripts": {
+    "server1": "tsc-watch --project tsconfig.json --onSuccess 'node ./dist/server1/server.js'",
+    "server2": "tsc-watch --project tsconfig.json --onSuccess 'node ./dist/server2/server.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturSnyk/web-security-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturSnyk/web-security-playground/issues"
+  },
+  "homepage": "https://github.com/ArturSnyk/web-security-playground#readme",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.3",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.3"
+  }
+}
